@@ -16,7 +16,11 @@ void main() {
           backgroundColor: Colors.orange[700],
         ),
         body: Center(
-          child: Image.asset("assets/space1.jpg"),
+          child: Icon(
+            Icons.airport_shuttle,
+            color: Colors.lightBlue,
+            size: 50.0,
+          ),
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
