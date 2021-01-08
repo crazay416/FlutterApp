@@ -16,10 +16,13 @@ void main() {
           backgroundColor: Colors.orange[700],
         ),
         body: Center(
-          child: RaisedButton(
+          child: RaisedButton.icon(
             onPressed: () {},
-            child: Text("Click me"),
-            color: Colors.lightBlue,
+            icon: Icon(
+              Icons.mail,
+            ),
+            label: Text("mail me"),
+            color: Colors.amber,
           ),
         ),
         floatingActionButton: FloatingActionButton(
