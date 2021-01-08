@@ -16,10 +16,10 @@ void main() {
           backgroundColor: Colors.orange[700],
         ),
         body: Center(
-          child: Icon(
-            Icons.airport_shuttle,
+          child: RaisedButton(
+            onPressed: () {},
+            child: Text("Click me"),
             color: Colors.lightBlue,
-            size: 50.0,
           ),
         ),
         floatingActionButton: FloatingActionButton(
