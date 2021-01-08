@@ -11,7 +11,7 @@ void main() {
     Widget build(BuildContext context) {
       return Scaffold(
         appBar: AppBar(
-          title: Text("My first App"),
+          title: Text("My first app"),
           centerTitle: true,
           backgroundColor: Colors.orange[700],
         ),
