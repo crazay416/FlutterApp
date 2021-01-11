@@ -15,15 +15,22 @@ void main() {
           centerTitle: true,
           backgroundColor: Colors.orange[700],
         ),
-        body: Center(
-          child: RaisedButton.icon(
-            onPressed: () {},
-            icon: Icon(
-              Icons.mail,
+        body: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            Text("Hello World"),
+            FlatButton(
+              onPressed: () {},
+              color: Colors.amber,
+              child: Text("Click me"),
             ),
-            label: Text("mail me"),
-            color: Colors.amber,
-          ),
+            Container(
+              color: Colors.cyan,
+              padding: EdgeInsets.all(30.0),
+              child: Text("Inside Container"),
+            ),
+          ],
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
