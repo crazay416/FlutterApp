@@ -12,26 +12,10 @@ void main() {
       return Scaffold(
         appBar: AppBar(
           title: Text("My first app"),
-          centerTitle: true,
+          //centerTitle: true,
           backgroundColor: Colors.orange[700],
         ),
-        body: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[
-            Text("Hello World"),
-            FlatButton(
-              onPressed: () {},
-              color: Colors.amber,
-              child: Text("Click me"),
-            ),
-            Container(
-              color: Colors.cyan,
-              padding: EdgeInsets.all(30.0),
-              child: Text("Inside Container"),
-            ),
-          ],
-        ),
+        body: Column(),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
           child: Text("click"),
